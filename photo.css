@@ -1,0 +1,81 @@
+body {
+  background: transparent linear-gradient(233deg, #a5beee 0%, #4780e8 100%) 0% 0% no-repeat padding-box;
+}
+
+/* ============== Loading ============== */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.loading img {
+  width: 300px;
+  height: 300px;
+  animation: App-logo-spin infinite 20s linear;
+}
+/* ============== End Loading ============== */
+
+.center-content {
+  text-align: center;
+}
+
+/* NavBar */
+.navbar-brand {
+  font: normal normal normal 27px/36px Segoe UI Symbol;
+}
+
+.nav-link {
+  font: normal normal normal 17px/23px Segoe UI Symbol;
+  margin-left: 15px;
+}
+/* Akhir NavBar */
+
+/* Footer */
+.text-footer {
+  font: normal normal normal 20px/23px Segoe UI Symbol;
+}
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Garis Footer */
+  .garis-kiri {
+    border-left: 1px solid white;
+  }
+  /* Akhir Garis Footer */
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  /* Garis Footer */
+  .garis-bawah {
+    border-bottom: 1px solid white;
+  }
+  /* Garis Footer */
+}

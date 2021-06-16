@@ -1,0 +1,109 @@
+body {
+  background: transparent linear-gradient(233deg, #a5beee 0%, #4780e8 100%) 0% 0% no-repeat padding-box;
+}
+
+/* NavBar */
+.navbar-brand {
+  font: normal normal normal 27px/36px Segoe UI Symbol;
+}
+
+.nav-link {
+  font: normal normal normal 17px/23px Segoe UI Symbol;
+  margin-left: 15px;
+}
+/* Akhir NavBar */
+
+/* Konten */
+
+.info-regular {
+  background-color: transparent;
+  border-radius: 12px;
+  margin-top: 85px;
+  margin-left: -150px;
+  text-align: left;
+  font: normal normal normal 12px/18px Segoe UI Symbol;
+}
+
+.info-terusan {
+  background-color: transparent;
+  border-radius: 12px;
+  margin-bottom: 75px;
+  margin-left: -250px;
+  text-align: left;
+  font: normal normal normal 12px/18px Segoe UI Symbol;
+}
+
+.gmbr-regular {
+  margin-left: 175px;
+}
+
+.gmbr-terusan {
+  margin-left: 275px;
+  margin-top: 10px;
+}
+/* Akhir Konten */
+
+/* Footer */
+.text-footer {
+  font: normal normal normal 20px/23px Segoe UI Symbol;
+}
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Garis Footer */
+  .garis-kiri {
+    border-left: 1px solid white;
+  }
+  /* Akhir Garis Footer */
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  /* Konten */
+  .info-regular {
+    background-color: transparent;
+    border-radius: 12px;
+    margin-top: -100px;
+    margin-left: 0px;
+    text-align: left;
+    font: normal normal normal 12px/18px Segoe UI Symbol;
+  }
+
+  .info-terusan {
+    background-color: transparent;
+    border-radius: 12px;
+    margin-left: 0px;
+    text-align: left;
+    font: normal normal normal 12px/18px Segoe UI Symbol;
+  }
+
+  .gmbr-regular {
+    margin-left: -75px;
+    margin-top: -60px;
+  }
+
+  .gmbr-terusan {
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  /* Akhir Konten */
+
+  /* Garis Footer */
+  .garis-bawah {
+    border-bottom: 1px solid white;
+  }
+  /* Garis Footer */
+}

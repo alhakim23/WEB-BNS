@@ -1,0 +1,205 @@
+body {
+  background: transparent linear-gradient(180deg, #7ac1ff 0%, #10aaef 56%, #cf6eff 100%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.navbar-brand {
+  font: normal normal normal 27px/36px Segoe UI Symbol;
+}
+
+.nav-link {
+  font: normal normal normal 17px/23px Segoe UI Symbol;
+  margin-left: 15px;
+}
+
+/* Banner */
+.banner {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  width: auto;
+  height: 730px;
+}
+/* Akhir Banner */
+
+/* Liburan seru... */
+.banner .col-md-6 {
+  margin-top: 100px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.2);
+  font: normal normal bold 60px/70px Arial Rounded MT;
+}
+/* Akhir Liburan seru... */
+
+/* KOTAK TENGAH2 */
+.info-panel {
+  background-color: white;
+  border-radius: 12px;
+  margin-top: -43px;
+  font: normal normal bold 30px/34px Arial Rounded MT;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: center;
+}
+/* AKHIR KOTAK TENGAH2 */
+
+.h2 {
+  font: normal normal bold 35px/38px Arial Rounded MT;
+  margin-top: 50px;
+}
+
+/* Gallery Home */
+.gal-home {
+  margin-top: 72px;
+  margin-bottom: 72px;
+  margin-left: 100px;
+  margin-right: -135px;
+}
+
+.zoom {
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  font: normal normal bold 35px/40px Arial Rounded MT;
+  color: white;
+}
+/* Akhir Gallery Home */
+
+/* Gallery */
+.gallery {
+  margin-bottom: 10px;
+}
+/* Akhir Gallery */
+
+/* About */
+.text-about {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.logo-about {
+  margin-left: 730px;
+  margin-top: -550px;
+}
+/* Akhir About */
+
+/* Book Now */
+.book-now {
+  margin-top: 40px;
+  font: normal normal bold 30px/34px Arial Rounded MT;
+}
+/* Akhir Book Now */
+
+/* More */
+.more {
+  margin-top: 40px;
+  font: normal normal bold 30px/34px Arial Rounded MT;
+}
+/* More */
+
+.tombol {
+  margin-left: 15px;
+}
+
+/* Akhir Tombol */
+
+/* Footer */
+.text-footer {
+  font: normal normal normal 20px/23px Segoe UI Symbol;
+}
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Banner */
+  .banner {
+    margin-top: -75px;
+  }
+
+  .banner .col-md-6 {
+    margin-top: 350px;
+    margin-left: -70px;
+  }
+
+  .banner .col-md-5 {
+    margin-left: 730px;
+    margin-top: -260px;
+  }
+  /* Banner */
+
+  /* Garis Footer */
+  .garis-kiri {
+    border-left: 1px solid white;
+  }
+  /* Akhir Garis Footer */
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  /* Banner */
+  /* Liburan seru... */
+  .banner .col-md-6 {
+    margin-left: 28px;
+    margin-top: 400px;
+  }
+  /* Akhir Liburan seru... */
+  .banner .col-md-5 {
+    margin-top: -500px;
+    margin-left: -10px;
+  }
+  /* Akhir Banner */
+
+  /* Gallery Mobile Home */
+  .gal-home {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: -125px;
+  }
+  /* Akhir Gallery Mobile Home */
+
+  /* Gallery */
+  .centered {
+    margin-left: -38px;
+  }
+  /* Akhir Gallery */
+
+  /* About */
+  .logo-about {
+    content: "";
+  }
+  /* Akhir About */
+
+  /* More */
+  .more {
+    margin-top: 72px;
+    margin-left: -40px;
+  }
+  /* More */
+
+  /* Garis Footer */
+  .garis-bawah {
+    border-bottom: 1px solid white;
+  }
+  /* Garis Footer */
+}

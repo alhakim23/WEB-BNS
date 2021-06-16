@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(to bottom, #7ac1ff, #10aaef, #cf6eff);
+}
+
+/* NavBar */
+.navbar-brand {
+  font: normal normal normal 27px/36px Segoe UI Symbol;
+}
+
+.nav-link {
+  font: normal normal normal 17px/23px Segoe UI Symbol;
+  margin-left: 15px;
+}
+/* Akhir NavBar */
+
+/* Banner */
+.banner {
+  background-image: url(img/book.jpg);
+  background-size: cover;
+  width: auto;
+  height: 730px;
+}
+/* Akhir Banner */
+
+/* Menu */
+.banner .col-md-4 {
+  margin-top: 170px;
+  margin-left: 250px;
+  margin-right: -240px;
+}
+
+.tulisan {
+  margin-left: 80px;
+}
+/* Akhir Menu */
+
+/* Footer */
+.text-footer {
+  font: normal normal normal 20px/23px Segoe UI Symbol;
+}
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Banner */
+  .banner {
+    margin-top: -75px;
+  }
+  /* Banner */
+
+  /* Garis Footer */
+  .garis-kiri {
+    border-left: 1px solid white;
+  }
+  /* Akhir Garis Footer */
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  /* Menu */
+  .banner .col-md-4 {
+    width: 40px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -5px;
+    margin-right: 200px;
+  }
+
+  .tulisan {
+    margin-left: 80px;
+  }
+  /* Akhir Menu */
+
+  /* Garis Footer */
+  .garis-bawah {
+    border-bottom: 1px solid white;
+  }
+  /* Garis Footer */
+}

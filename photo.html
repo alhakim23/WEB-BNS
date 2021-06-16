@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batu Night Spectacular</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="photo.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logoB.png" width="55" height="33" class="d-inline-block align-top" alt="" />
+          Batu Night Spectacular
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="book.html">Book Online</a>
+            <a class="nav-link" href="photo.html"> Virtual Photobooth</a>
+            <a class="nav-link active" href="about.html">About<span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.2.1" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0.5" crossorigin></script>
+
+    <script type="text/babel" src="js/Loading.js"></script>
+    <script type="text/babel" src="js/App.js"></script>
+    <script type="text/babel">
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-left text-lg-start text-footer" style="margin-top: 60px;">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div style="color: white" class="col-lg-6 col-md-12 mb-4 mb-md-0 garis-bawah">
+            <h5>Kontak</h5>
+            <p>
+              Jl. Hayam Wuruk No.1, <br />
+              Oro-Oro Ombo, Kec. Batu, <br />
+              Kota Batu, Jawa Timur 65316 <br>
+              <p><img src="img/phone.png" style="height: 30px; width: 30px;" alt=""> (0341) 5025111</p>
+              <p><img src="img/mail.png" style="height: 20px; width: 25px; margin-right: 10px;" alt="">bns_batu@yahoo.co.id</p>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 garis-kiri garis-bawah">
+            <h5 style="color: white" class="mb-0">Site Links</h5>
+          <p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-light">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-light">About Us</a>
+              </li>
+            </ul>
+          </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 garis-kiri">
+            <h5 style="color: white" class="mb-0">Social Media</h5>
+
+            <ul class="list-unstyled sosmed">
+              <li>
+                <a href="https://www.instagram.com/batunightspectacular/" class="text-light"><img src="img/insta.png" style="height: 75px; width: 75px; margin-left: -20px" alt="" />Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/batunightspectacular" class="text-light"><img src="img/fb.png" style="height: 30px; width: 30px; margin-right: 25px" alt="" />Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>

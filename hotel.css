@@ -1,0 +1,101 @@
+body {
+  background: transparent linear-gradient(164deg, #51a1fe 0%, #8d6fdd 65%, #b250c9 100%) 0% 0% no-repeat padding-box;
+}
+
+/* NavBar */
+.navbar-brand {
+  font: normal normal normal 27px/36px Segoe UI Symbol;
+}
+
+.nav-link {
+  font: normal normal normal 17px/23px Segoe UI Symbol;
+  margin-left: 15px;
+}
+/* Akhir NavBar */
+
+/* Konten */
+.info-panel {
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 95px;
+  margin-left: -365px;
+  padding-top: 17px;
+  text-align: left;
+  font: normal normal normal 10px/18px Segoe UI Symbol;
+}
+
+.traveloka {
+  margin-top: 50px;
+}
+
+.gmbr-hotel {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.garis-info {
+  border-bottom: 2px solid #707070;
+  margin-bottom: 10px;
+}
+/* Akhir Konten */
+
+/* Footer */
+.text-footer {
+  font: normal normal normal 20px/23px Segoe UI Symbol;
+}
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Garis Footer */
+  .garis-kiri {
+    border-left: 1px solid white;
+  }
+  /* Akhir Garis Footer */
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  /* Konten */
+  .info-panel {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: -140px;
+    margin-left: 80px;
+    padding-top: 17px;
+    text-align: left;
+    font: normal normal normal 10px/18px Segoe UI Symbol;
+  }
+
+  .traveloka {
+    margin-left: -230px;
+    margin-top: 410px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .gmbr-hotel {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  /* Akhir Konten */
+
+  /* Garis Footer */
+  .garis-bawah {
+    border-bottom: 1px solid white;
+  }
+  /* Garis Footer */
+}
