@@ -1,6 +1,11 @@
 # WEB PROJECT HUMAN-COMPUTER INTERACTION
 
-This is our web project about travelling place named Batu Night Spectacular
+This is our web project about travelling place named Batu Night Spectacular. This website's menus : 
+1. Home
+2. Gallery
+3. Book Online
+4. Virtual Photobooth
+5. About
 
 # OUR GROUP
 
