@@ -9,9 +9,9 @@ This is our web project about travelling place named Batu Night Spectacular. Our
 
 # OUR GROUP
 
-Nur Muhammad Alhakim – 2440108225
-Pafras Vio Prayogo - 2440095664
-Sa’dan Agung Valliansyah – 2440087012
+1. Nur Muhammad Alhakim – 2440108225
+2. Pafras Vio Prayogo - 2440095664
+3. Sa’dan Agung Valliansyah – 2440087012
 
 # NOTE
 
